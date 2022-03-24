@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        AppCenter.start(application, "e10a3977-599a-43bd-9132-cf9e615ead6b", Analytics::class.java, Crashes::class.java)
+        AppCenter.start(application, "ffab8cfb-a9d2-44ad-a3ac-a687f284ce07", Analytics::class.java, Crashes::class.java)
 
         val clickMe = findViewById<Button>(R.id.clickMe)
         clickMe.text = "Press Me"
